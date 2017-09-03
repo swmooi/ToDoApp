@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="add">Add Item</string>
+    <string name="add_item_hint">Add a new item.</string>
+    <string name="edit_item_below">Edit Item Below</string>
+    <string name="save_edit">Save</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="error_enter_non_empty_item">Please enter a non-empty todo item.</string>
+</resources>
