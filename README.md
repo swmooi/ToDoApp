@@ -35,7 +35,7 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** An adapter which implements the Adapter interface. It is important because it acts as a bridge between a data set and an adapter view, an object of a class that extends the abstract AdapterView class. 
+**Answer:** An adapter which implements the Adapter interface, is important because it acts as a bridge between a data set and an adapter view, an object of a class that extends the abstract AdapterView class. 
 
 The function of an adapter to retrieve data from the data set and to generate View objects based on that data. The generated View objects are then used to populate the adapter view that is bound to the adapter.
 
