@@ -37,9 +37,9 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Answer:** An adapter which implements the Adapter interface, is important because it acts as a bridge between a data set and an adapter view, an object of a class that extends the abstract AdapterView class. 
 
-The function of an adapter to retrieve data from the data set and to generate View objects based on that data. The generated View objects are then used to populate the adapter view that is bound to the adapter.
+The function of an adapter is to retrieve data from the data set and to generate View objects based on that data. The generated View objects are then used to populate the adapter view that is bound to the adapter.
 
-Convertview is a parameter of the getView method. It is used to improve the performance of the Adapter by using the convertView as a way to recycle old View objects. View objects that are not visible are reused instead of having to instantiate an entirely new object each time a new list item is displayed.
+ConvertView is a parameter of the getView method. It is used to improve the performance of the Adapter. The Adapter uses the convertView as a way to recycle old View objects. View objects that are not visible are reused instead of having to instantiate an entirely new object each time a new list item is displayed.
 
 
 ## License
