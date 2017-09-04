@@ -7,7 +7,7 @@ ToDoApp is an android app that allows building a todo list and basic todo items 
 
 Submitted by: SW Mooi
 
-Time spent: 2 hours spent in total
+Time spent: 3 hours spent in total
 
 ## User Stories
 
@@ -35,14 +35,16 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** An adapter is an object of a class that implements the Adapter interface. It acts as a bridge between a data set and an adapter view, an object of a class that extends the abstract AdapterView class. An adapter is responsible for retrieving data from the data set and for generating View objects based on that data. The generated View objects are then used to populate any adapter view that is bound to the adapter.
+**Answer:** An adapter which implements the Adapter interface. It is important because it acts as a bridge between a data set and an adapter view, an object of a class that extends the abstract AdapterView class. 
 
-Convertview is used to increase the performance of the Adapter. When a ListView uses an Adapter to fill its rows with Views, the adapter populates each list item with a View object by calling getView() on each row. The Adapter uses the convertView as a way of recycling old View objects that are no longer being used. In this way, the ListView can send the Adapter recycled view objects that are no longer being displayed instead of instantiating an entirely new object each time the Adapter wants to display a new list item. This is the purpose of the convertView parameter.
+The function of an adapter to retrieve data from the data set and to generate View objects based on that data. The generated View objects are then used to populate the adapter view that is bound to the adapter.
+
+Convertview is a parameter of the getView method. It is used to improve the performance of the Adapter by using the convertView as a way to recycle old View objects. View objects that are not visible are reused instead of having to instantiate an entirely new object each time a new list item is displayed.
 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2017 SW Mooi.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
